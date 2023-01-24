@@ -243,7 +243,7 @@ It shows that foo.png has differences from HEAD (but that is binary
            untracked paths to the index.
 
        patch
-This lets you choose one path out of a status like selection. After
+This lets you choose one pathgit commit -m out of a status like selection. After
            choosing the path, it presents the diff between the index and the
            working tree file and asks you if you want to stage the change of
            each hunk. You can select one of the following options and type
