@@ -365,4 +365,67 @@ Answer 5:
        directory recursion or filename globbing performed by Git (quote your
        globs before the shell) will be silently ignored. The git add command
        can be used to add ignored files with the -f (force) option.
+Answer 6: On branch master
 
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+	new file:   answers.md
+Answer 7: On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+	new file:   answers.md
+
+mwatson@odd37:~/git-lab$ git commit -m "Initial commit"
+[master (root-commit) 792e9f0] Initial commit
+ 2 files changed, 370 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 answers.md
+mwatson@odd37:~/git-lab$ git status
+On branch master
+nothing to commit, working tree clean
+
+Answer 8: commit 792e9f0339b008a95bdd0d42341128d986bcb95f (HEAD -> master)
+Author: Mac Watson <mw989318@ohio.edu>
+Date:   Tue Jan 24 10:43:36 2023 -0500
+
+    Initial commit
+
+Answer 9: mwatson@odd37:~/git-lab$ git push -u origin main
+Username for 'https://github.com': MacWatson2021
+Password for 'https://MacWatson2021@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 5.90 KiB | 1006.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/MacWatson2021/git-lab.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+mwatson@odd37:~/git-lab$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Answer 10: No it did not update in  the terminal window.
+
+Answer 11:! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/MacWatson2021/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Answer 12: Yes the file updated with the changes made.
+
+Answer 13:.  ..  git-lab-2  lab1.cc  lab1.code-workspace
