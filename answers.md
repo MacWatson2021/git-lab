@@ -429,3 +429,25 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Answer 12: Yes the file updated with the changes made.
 
 Answer 13:.  ..  git-lab-2  lab1.cc  lab1.code-workspace
+Answer 14:
+		  /*
+ *        File: git-lab-program.cc
+ *      Author: <Mac Watson>
+ *        Date: <Jan 24 2023>
+ * Description: Lab 2 Program
+ */
+
+#include <iostream>
+#include <iomanip>
+#include <cstdlib>
+using namespace std;
+
+int main(int argc, char const *argv[]) {
+cout << "Hello Git!!" << endl;
+    return 0;
+}// main
+
+mwatson@odd37:~/2400$ g++ -Wall git-lab-program.cc
+mwatson@odd37:~/2400$ ./a.out
+Hello Git!!
+	   
